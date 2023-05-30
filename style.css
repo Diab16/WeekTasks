@@ -31,11 +31,25 @@ body {
 }
 .add {
   display: flex;
+  justify-content: center;
+  align-items: center;
   gap: 10px;
+}
+.add-task {
+  width: 80%;
+  font-size: 20px;
+}
+.add-task-btn {
+  width: 15%;
+  font-size: 20px;
+  background-color: #fff;
+  border: none;
+  cursor: pointer;
 }
 h2 {
   font-size: 34px;
-  /* text-align: center; */
+  text-align: center;
+  margin-bottom: 10px;
 }
 
 .task {
